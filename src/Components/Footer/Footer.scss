@@ -1,0 +1,62 @@
+.app__footer {
+   a, span {
+    text-decoration: none;
+        font-family: 'Tajawal' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        /* identical to box height */
+
+        text-align: right;
+
+        /* White */
+
+        color: #FFFFFF;
+
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        margin-top: 16px;
+
+        li {
+            font-family: 'Tajawal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+
+            text-align: right;
+
+            /* BG */
+
+            color: #F9F9F9;
+
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+}
+
+.text-light {
+    color: #FFFFFF !important;
+}
+
+@media screen and (max-width:767px) {
+    .app__footer-sm{
+        margin-top: 40px !important;  
+    }
+    .app__footer-sm-logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

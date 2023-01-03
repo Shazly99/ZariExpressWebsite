@@ -1,0 +1,44 @@
+@import '../../style/varibale';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto+Mono:wght@200;300;400;500;600;700&family=Roboto:wght@700;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+.app__Blog{
+    @media screen and (max-width:950px) {
+        margin-top: 400px !important;
+    }
+}
+.app__Blog-content {
+    box-shadow: 0px 6px 7px rgba(188, 188, 188, 0.16);
+    h4 {
+        font-family: 'Tajawal' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        /* identical to box height */
+
+        /* Black */
+
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 16px;
+
+    }
+
+    .app__Blog-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .app__Blog-footer-right {
+            h3{
+                font-family: 'Tajawal' !important;
+                font-style: normal;
+                font-weight: 500 !important;
+                font-size: 18px !important;
+                // line-height: 22px !important;  
+                /* Dark Gray */ 
+                color: #4A4A4A !important;
+            }
+        }
+    }
+}

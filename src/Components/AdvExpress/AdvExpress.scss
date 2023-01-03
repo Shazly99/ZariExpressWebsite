@@ -1,0 +1,25 @@
+@import '../../style/varibale';
+
+
+.app__AdvExpress{
+
+    .app__AdvExpress-content{
+        margin-top: 27px !important;
+        display: flex;
+        align-self:normal;
+    }
+
+    .app__AdvExpress-content-card{
+        background-color:$colorLight ;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: $shadow;
+    }
+}
+
+.mt-11{
+    margin-top: 11.05px;
+}
+.mt-8{
+    margin-top: 8px;
+}
