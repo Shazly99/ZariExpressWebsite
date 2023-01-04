@@ -14,12 +14,12 @@ function FormContact() {
     return (
         <>
             <form onSubmit={(e) => handleSubmit(e)} dir={!isEng ? 'ltr' : 'rtl'} >
-                <Component.InputGroup name='FromName' type='text' labelname='الأسم بالكامل'  />
-                <Component.InputGroup name='FromName' type='email' labelname=' الإيميل'  />
-                <Component.InputGroup name='FromName' type='number' labelname='رقم التليفون '  />
-                <Component.InputGroup name='FromName' type='text' labelname='النشاط التجاري '  /> 
+                <Component.InputGroup name='FromName' type='text' labelnameAr='الأسم بالكامل'  labelnameEn='Username' />
+                <Component.InputGroup name='FromName' type='email' labelnameAr=' الإيميل'  labelnameEn={'Email'} />
+                <Component.InputGroup name='FromName' type='number' labelnameAr='رقم التليفون '   labelnameEn='Phone'/>
+                <Component.InputGroup name='FromName' type='text' labelnameAr='النشاط التجاري '  labelnameEn='commercial activities' /> 
                 <div className="app__Landingpage-FromName ">
-                    <label className='w-100  d-flex justify-content-end ' htmlFor="">رسالتك</label>
+                    <label className='w-100  d-flex justify-content-end ' htmlFor="">  {!isEng?'رسالتك':'Your Mesaage'}</label>
                     <textarea dir={isEng ? 'ltr' : 'rtl'} name="" id="" cols="30" rows="10"></textarea>
                 </div>
                 

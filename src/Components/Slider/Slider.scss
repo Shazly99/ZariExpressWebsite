@@ -1,19 +1,113 @@
+.slick-slider {
+
+    // [type=button]:not(:disabled),
+    // [type=reset]:not(:disabled),
+    // [type=submit]:not(:disabled),
+    button:not(:disabled) {
+        cursor: pointer;
+        display: block !important;
+    }
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    bottom: 0 !important;
+    top: 70% !important;
+    right: 0px !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    @media screen and (max-width:1429px) {
+        top: 80% !important;
+    }
+}
+
+.slick-prev {
+    z-index: 999;
+}
+
+.slick-next {
+    right: 30px !important;
+
+}
+
+[dir='ltr'] .slick-prev {
+    right: -100px !important;
+    left: 87%;
+
+    @media screen and (max-width:1429px) {
+        left: 85% !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: white !important;
+    font-size: 26px !important;
+    border-radius: 0px !important;
+    background-color: transparent ;  
+}
  
-// .slick-dots li button:before {
-//     content: '•'; 
-//     font-size: 6px;
-//     line-height: 20px;
+.slick-slider button:not(:disabled) { 
+    color: white;
+}
 
-//     position: absolute;
-//     top: 0;
-//     left: 0;
+.slick-dots {
+    width: 20%;
+    display: flex !important;
+    justify-content: flex-end;
+    bottom: 30% !important;
+    right: 80px;  
+    
+    @media screen and (max-width:1429px) {
+        top: 80% !important;
+    }
 
-//     width: 20px;
-//     height: 20px; 
-//     text-align: center;
-//     background-color: chartreuse;
-//     opacity: .25;
-//     color: black; 
+    @media screen and (max-width:1360px) {
+        display: none !important;
+    }
+}
 
-// }
- 
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 22px !important;
+    height: 3px !important;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: #999999;
+    // background-color: ;
+}
+
+.slick-dots li.slick-active button:before {
+    color: transparent !important;
+}
+.slick-prev{
+    
+}
+
+@media screen and (max-width:1360px) {
+    .slick-prev:before, .slick-next:before{
+    
+        display: none !important;
+    }
+    .slick-dots{
+
+        display: none !important;
+    }
+}
+
+.slick-dots li button:before{
+    content:'' !important;
+}
