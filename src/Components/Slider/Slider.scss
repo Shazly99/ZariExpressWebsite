@@ -1,6 +1,4 @@
-/**
- * 
- * .slick-slider {
+.slick-slider {
     button:not(:disabled) {
         cursor: pointer;
         display: block !important;
@@ -138,8 +136,7 @@
     margin-top: -70px !important;
 
     @media screen and (max-width:1400px) {
-        height: 0% !important;
+        height: 100% !important;
         margin-top: 0px !important;
     }
 }
- */
