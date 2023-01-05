@@ -13,6 +13,7 @@ $headerSize: 39px;
     justify-content: $justify;
     align-items: $align;
     flex-direction: $dir ;
+    
 }
 
 @mixin size($w, $h) {

@@ -45,8 +45,7 @@ function SliderExpress() {
                }
            ]
        }; */
-    var settings = {
-        className: "",
+    var settings = { 
         dots: true,
         infinite: true,
         slidesToShow: 1,
@@ -62,7 +61,7 @@ function SliderExpress() {
                     imageSlider.map((img, index) => {
                         return (
                             <div key={index}>
-                                <img src={img.url} className='w-100  ' />
+                                <img src={img.url} className='w-100  sliderImage'   />
                             </div>
                         )
                     })

@@ -1,12 +1,16 @@
 .slick-slider {
-
-    // [type=button]:not(:disabled),
-    // [type=reset]:not(:disabled),
-    // [type=submit]:not(:disabled),
     button:not(:disabled) {
         cursor: pointer;
         display: block !important;
     }
+
+
+}
+
+@import url('https://css.gg/arrow-left.css');
+
+.slick-next:before {
+    contain: 'gg-arrow-left ' !important;
 }
 
 .slick-prev,
@@ -15,7 +19,7 @@
     line-height: 0;
     position: absolute;
     bottom: 0 !important;
-    top: 70% !important;
+    top: 90% !important;
     right: 0px !important;
     display: block;
     width: 20px;
@@ -27,8 +31,9 @@
     border: none;
     outline: none;
     background: transparent;
+
     @media screen and (max-width:1429px) {
-        top: 80% !important;
+        top: 90% !important;
     }
 }
 
@@ -52,13 +57,13 @@
 
 .slick-prev:before,
 .slick-next:before {
-    color: white !important;
-    font-size: 26px !important;
-    border-radius: 0px !important;
-    background-color: transparent ;  
+    // color: white !important;
+    // font-size: 26px !important;
+    // border-radius: 0px !important;
+    // background-color: transparent;
 }
- 
-.slick-slider button:not(:disabled) { 
+
+.slick-slider button:not(:disabled) {
     color: white;
 }
 
@@ -66,11 +71,13 @@
     width: 20%;
     display: flex !important;
     justify-content: flex-end;
-    bottom: 30% !important;
-    right: 80px;  
-    
+    bottom: 10% !important;
+    right: 8.5%;
+    top: 92%;
     @media screen and (max-width:1429px) {
-        top: 80% !important;
+        top: 92% !important;
+        right: 10%;
+        bottom: 50% !important;
     }
 
     @media screen and (max-width:1360px) {
@@ -93,21 +100,43 @@
 .slick-dots li.slick-active button:before {
     color: transparent !important;
 }
-.slick-prev{
-    
-}
 
 @media screen and (max-width:1360px) {
-    .slick-prev:before, .slick-next:before{
-    
+
+    .slick-prev:before,
+    .slick-next:before {
+
         display: none !important;
     }
-    .slick-dots{
+
+    .slick-dots {
 
         display: none !important;
     }
 }
 
-.slick-dots li button:before{
-    content:'' !important;
+.slick-dots li button:before {
+    content: '' !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    padding: 5px;
+    background-color: transparent;
+    position: absolute;
+    left: -70px;
+    border-radius: 5px !important;
+    border: 2px solid;
+    line-height: 2;
+    
+}
+
+.sliderImage {
+    height: 100vh;
+    margin-top: -70px !important;
+
+    @media screen and (max-width:1400px) {
+        height: 0% !important;
+        margin-top: 0px !important;
+    }
 }

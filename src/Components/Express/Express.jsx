@@ -27,7 +27,8 @@ function Express() {
                       transition={{ duration: 3, ease: 'easeInOut' }}
                       src={Img.bgPhoto}
                       className='overlay__circle' />
-                  </motion.div> : 
+                  </motion.div>
+                  :
                   <motion.div
                     whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, delayChildren: 0.4 }} className="app__header-img d-flex d-flex justify-content-end  align-items-center " >
                     <motion.img
@@ -54,21 +55,24 @@ function Express() {
                 <h1 style={{ textAlign: 'start' }}>Zari Express (Client App)</h1>
               </div>
 
-              <div className="app__Express-content d-flex " dir={isEng ? 'ltr' : 'rtl'} >
+              <div className="app__Express-content d-flex " dir={isEng ? 'ltr' : 'rtl'}>
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}                >
-                  <img src={Img.google} alt="" />
+                <img src={Img.google} alt="" />
                 </motion.div>
 
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}                >
-                  <img src={Img.apple} alt="" />
+                  <a href="https://play.google.com/store/apps/details?id=com.zari.zariexpress" target={'_blank3'}>
+                    <img src={Img.apple} alt="" />
+                  </a>
                 </motion.div>
               </div>
+
 
               <h1 style={{ textAlign: 'start' }}>Zari Express (Manager App)</h1>
 
@@ -77,14 +81,16 @@ function Express() {
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}                >
-                  <img src={Img.google} alt="" />
+                <img src={Img.google} alt="" />
                 </motion.div>
 
                 <motion.div
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}                >
-                  <img src={Img.apple} alt="" />
+                  <a href="https://play.google.com/store/apps/details?id=com.zari.zariexpress" target={'_blank3'}>
+                    <img src={Img.apple} alt="" />
+                  </a>
                 </motion.div>
               </div>
 
