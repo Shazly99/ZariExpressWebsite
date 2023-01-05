@@ -39,7 +39,7 @@ function Contact() {
                   transition={{ type: 'tween', duration: 2 }}
                   initial={{ y: 200 }}
                 >
-                  <img src={Img.contactUs} alt="" srcset="" className='w-100' />
+                  <img src={Img.contactUs} alt=""  className='w-100' />
                 </motion.div>
               </div>
             </Col>

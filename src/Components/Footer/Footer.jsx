@@ -19,11 +19,11 @@ function Footer() {
               }
             </span>
             <ul>
-              <li className='d-flex justify-content-start gap-2'><img src={Img.icon10} alt="" srcset="" /> <span>01151300867</span> </li>
-              <li className='d-flex justify-content-start gap-2'><img src={Img.icon6} alt="" srcset="" /> <span>01151300867</span> </li>
-              <li className='d-flex justify-content-start gap-2'><img src={Img.icon8} alt="" srcset="" /><a href="https://www.instagram.com/ZARI.Express/" target={'_blank'}>Zari.Express</a></li>
-              <li className='d-flex justify-content-start gap-2'><img src={Img.icon7} alt="" srcset="" /><a href="https://www.facebook.com/ZARI.Express/" target={'_blank'}>Zari.Express</a></li>
-              <li className='d-flex justify-content-start gap-2'><img src={Img.icon9} alt="" srcset="" /><span>sales@aznetsul.com</span></li>
+              <li className='d-flex justify-content-start gap-2'><img src={Img.icon10} alt=""  /> <span>01151300867</span> </li>
+              <li className='d-flex justify-content-start gap-2'><img src={Img.icon6} alt=""  /> <span>01151300867</span> </li>
+              <li className='d-flex justify-content-start gap-2'><img src={Img.icon8} alt=""  /><a href="https://www.instagram.com/ZARI.Express/" target={'_blank'}>Zari.Express</a></li>
+              <li className='d-flex justify-content-start gap-2'><img src={Img.icon7} alt=""  /><a href="https://www.facebook.com/ZARI.Express/" target={'_blank'}>Zari.Express</a></li>
+              <li className='d-flex justify-content-start gap-2'><img src={Img.icon9} alt=""  /><span>sales@aznetsul.com</span></li>
             </ul>
           </Col>
 
@@ -44,7 +44,7 @@ function Footer() {
 
 
           <Col className='app__footer-sm  app__footer-sm-logo' xl={3} lg={4} md={6} sm={12} dir={isEng ? 'ltr' : 'rtl'}>
-            <img src={Img.FooterLogo} width='168' height='104' alt="" srcset="" />
+            <img src={Img.FooterLogo} width='168' height='104' alt=""  />
             <div className="mt-3">
               <Component.Paragraph
                 paraAr={' نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم '}
