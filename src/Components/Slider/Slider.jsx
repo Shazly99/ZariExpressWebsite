@@ -55,7 +55,7 @@ function SliderExpress() {
         speed: 500,
     };
     return (
-        <div className='position-relative overflow-hidden'>
+        <div className='position-relative overflow-hidden' id='home'>
             <Slider {...settings}>
                 {
                     imageSlider.map((img, index) => {
