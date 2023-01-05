@@ -52,7 +52,9 @@ function SliderExpress() {
         slidesToScroll: 1,
         adaptiveHeight: true,
         infinite: true,
-        speed: 500,
+        speed: 1300,
+        autoplay: true,
+        cssEase: "ease-out"   
     };
     return (
         <div className='position-relative overflow-hidden' id='home'>
