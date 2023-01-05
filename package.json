@@ -1,5 +1,4 @@
 {
-  "homepage": "https://zariexpress.com/public/website/",
   "name": "zairexpress",
   "version": "0.1.0",
   "private": true,
@@ -44,3 +43,4 @@
     ]
   }
 }
+ 
